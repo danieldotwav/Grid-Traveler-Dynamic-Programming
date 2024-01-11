@@ -13,9 +13,9 @@ The program includes two primary methods:
 
 ## Algorithms
 
-### Recursive Approach
+### **1. Simple Recursive Method (`gridTraveler`):**
 
-#### Algorithm Description
+**Logic:**
 
 - **Base Cases**:
   - Return `0` if either `rows` or `columns` is `0` (invalid grid).
@@ -28,9 +28,9 @@ The program includes two primary methods:
 - **Time Complexity**: `O(2^(m+n))`, where `m` is the number of rows and `n` is the number of columns.
 - **Space Complexity**: `O(m+n)`, due to the recursion stack depth.
 
-### Dynamic Programming with Memoization
+### **2. Dynamic Programming with Memoization(`improvedGridTraveler`):**
 
-#### Algorithm Description
+**Logic**
 
 - **Memoization**: Uses a `HashMap` to store results of subproblems.
 - **Base Cases**: Similar to the recursive approach.
