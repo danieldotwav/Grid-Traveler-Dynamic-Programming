@@ -15,7 +15,7 @@ The program includes two primary methods:
 
 ### **1. Simple Recursive Method (`gridTraveler`):**
 
-**Logic:**
+#### Logic
 
 - **Base Cases**:
   - Return `0` if either `rows` or `columns` is `0` (invalid grid).
@@ -30,7 +30,7 @@ The program includes two primary methods:
 
 ### **2. Dynamic Programming with Memoization(`improvedGridTraveler`):**
 
-**Logic:**
+#### Logic
 
 - **Memoization**: Uses a `HashMap` to store results of subproblems.
 - **Base Cases**: Similar to the recursive approach.
