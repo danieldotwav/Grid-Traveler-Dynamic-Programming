@@ -1,4 +1,4 @@
-# Grid Traveler Dynamic Programming
+# Grid Traveler Using Dynamic Programming
 
 ## Introduction
 
