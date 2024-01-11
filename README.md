@@ -30,7 +30,7 @@ The program includes two primary methods:
 
 ### **2. Dynamic Programming with Memoization(`improvedGridTraveler`):**
 
-**Logic**
+**Logic:**
 
 - **Memoization**: Uses a `HashMap` to store results of subproblems.
 - **Base Cases**: Similar to the recursive approach.
